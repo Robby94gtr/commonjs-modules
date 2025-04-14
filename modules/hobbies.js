@@ -2,10 +2,10 @@
 restituire  un array di stringhe contenenti gli hobby. */
 
 function hobbies (hobbyOne, hobbyTwo, hobbyThree){
-    let objHobbies = ['hobbyOne', 'hobbyTwo', 'hobbyThree'];
+    let objHobbies = [hobbyOne, hobbyTwo, hobbyThree];
     return objHobbies;
 };
 
-// 2. Esporta la funzione dal file
+// 2. Esporto la funzione dal file
 
 module.exports = hobbies;
