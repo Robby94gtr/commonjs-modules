@@ -9,5 +9,7 @@ function getFullName(firstName, lastName){
     return user;
 };
 
+// 2. Esporta la funzione dal file.
+
 module.exports = getFullName;
 
